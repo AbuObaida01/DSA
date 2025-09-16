@@ -32,7 +32,7 @@ node* insertAtTail(node* head, int val){
     
 }
 int main(){
-    vector<int>arr={3,6,7,9};
+    vector<int>arr={1};
     node* head=new node(arr[0], nullptr);
     node* curr=head;
     for(int i=1;i<arr.size();i++){
